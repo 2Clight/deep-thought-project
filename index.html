@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- creating the navigation bar -->
+  <nav class="navbar">
+    <div class="logo"><img src="icons/logo 1.svg" alt=""></div>
+    <div class="navigations">
+        <ul class="list">
+            <li class="home"><img src="icons/home.svg" alt="" class="img"></li>
+            <li class="service"><img src="icons/tools.svg" alt=""></li>
+            <li class="notification"><img src="icons/Vector.svg" alt=""></li>
+            <li class="profile"><img src="icons/Ellipse 53.svg" alt=""></li>
+            <li class="dots"><img src="icons/dot.svg" alt=""><img src="icons/dot.svg" alt=""><img src="icons/dot.svg" alt=""></li>
+        </ul>
+    </div>
+  </nav>
+  <!-- creating the journey board -->
+  <section class="main-section">
+     <div class="journey-board">
+      <div class="journey-header">
+        <h3 class="journey-title">Journey Board</h3>
+        <button onclick="collapse()" class="arrow-btn"><img class="arrow" src="icons/arrow.svg" alt=""></button>
+      </div>
+      <div class="bottom">
+        <h4 class="explore-jo">Explore the world of Management</h4>
+      <ul class="management-types">
+        
+        <li class="technical list-element">Tech</li>
+        <li class="threads list-element">thread</li>
+        <li class="structure list-element">stucture</li>
+        <li class="sa list-element">4SA </li>
+        <img src="icons/1.svg" alt="number 1" class="number">
+      </ul>
+    </div>
+     </div>
+     <!-- creating the notice board -->
+     <div class="notice-board">
+      <div class="notice-header">
+      <button class="close-btn"><img width="30" height="25" src="icons/close btn.svg" alt=""></button>
+      <div class="notice-text">
+          N<br>o<br>t<br>i<br>c<br>e<br> <br>B<br>o<br>a<br>r<br>d
+      </div>
+    </div>
+      <div class="notice-content"></div>
+  </div>
+     
+  </section>
+  <!-- creating the title section -->
+  <section class="content">
+  <div class="technical-project">
+    <h1 class="tech-title">Technical Project</h1>
+    <button id="submit-task">Submit task</button>
+   </div>
+   <div class="sub-content">
+    <h3 class="explore">Explore the world of management</h3>
+    <p>As a project manager, you play an important reole in leading a project through initiation, planning, execution, monitoring, controlling and completion. How? Do you want to manage each and every step of your life?</p>
+   </div>
+   
+  </section>
+  <!-- creating the 4cards  -->
+  <section class="cards">
+    <div class="container">
+      <div class="card1">
+        <div class="card1-header heading">
+          <h4 class="card1-title title">Technical project management</h4>
+          <button class="info"><img src="icons/description.svg" alt=""></button>
+        </div>
+        <div class="card1-content">
+          <div class="card1-description description"><span class="bold">Description:</span> Story of Alignment Scope of Agility Specific Accountable Staggering Approach</div>
+          <div class="vid"><iframe width="100%" height="300" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        
+        </div>
+      </div>
+      <div class="card2">
+        <div class="card2-header heading">
+                    <h4 class="card2-title title">Technical project management</h4>
+          <button class="info"><img src="icons/description.svg" alt=""></button>
+        </div>
+        <div class="card2-content">
+          <div class="card2-description description"><span class="bold">Description:</span> Story of Alignment Scope of Agility Specific Accountable Staggering Approach</div>
+          </div>
+          <div class="thread">
+            <div class="thread-header">
+                <button class="arrow-up"><img src="icons/arrow up.svg" alt=""></button>
+                <span class="thread-a"> Thread A</span>
+            </div>
+            <div class="sub-thread-container">
+                <div class="sub-thread">
+                    <label for="sub-thread-1" class="labeling t1">Sub thread 1</label>
+                    <textarea id="sub-thread-1" placeholder="Enter Text here"></textarea>
+                </div>
+                <div class="sub-thread">
+                    <label for="sub-interpretation-1" class="labeling">Sub Interpretation 1</label>
+                    <textarea id="sub-interpretation-1" placeholder="Enter Text here"></textarea>
+                </div>
+            </div>
+            <div class="help">
+               <div class="icons">
+              <span><img src="icons/bulb.svg" alt=""></span>
+              <span><img src="icons/comment.svg" alt=""></span>
+              <span><img src="icons/faq.svg" alt=""></span>
+              <span><img src="icons/community.svg" alt=""></span>
+            
+            
+            </div>
+            <div class="selectors">
+              <select>
+                <option>Select Category</option>
+              </select>
+              <select>
+                <option>Select Process</option>
+              </select>
+            </div>
+          </div>
+           <div class="summary-thread">
+            <button class="sub-thread-button">+ Sub-thread</button>
+            <div class="summary">
+                <label for="summary" class="labeling">Summary for Thread A</label>
+                <textarea id="summary" placeholder="Enter Text Here"></textarea>
+            </div>
+          </div>
+        
+        </div>
+       
+    
+      </div>
+      <div class="card3">
+        <div class="card3-header heading">
+                    <h4 class="card3-title title">Technical project management</h4>
+          <button class="info"><img src="icons/description.svg" alt=""></button>
+        </div>
+        <div class="card3-content">
+          <div class="card3-description description"><span class="bold">Description:</span> Story of Alignment Scope of Agility Specific Accountable Staggering Approach</div>
+        </div>
+        <div class="article">
+          <div class="article-title">Title</div>
+          <textarea name="title" id="title" width="100%" height="1rem"></textarea>
+        </div>
+        <div class="content-toolbar">
+          <div class="toolbar-header">
+          <div class="toolbar-menu">
+              <span>File</span>
+              <span>Edit</span>
+              <span>View</span>
+              <span>Insert</span>
+              <span>Format</span>
+              <span>Tools</span>
+              <span>Table</span>
+              <span>Help</span>
+          </div>
+          <div class="toolbar-actions">
+              <button><img src="icons/curve left.svg" alt=""></button>
+              <button><img src="icons/curve right.svg" alt=""></button>
+              <button><img src="icons/expand.svg" alt=""></button>
+              <select>
+                  <option>Paragraph</option>
+              </select>
+              <button class="grey-dots">
+                <img src="icons/grey dot.svg" alt="">
+                <img src="icons/grey dot.svg" alt="">
+                <img src="icons/grey dot.svg" alt="">
+              </button>
+          </div>
+        </div>
+        
+          <textarea name="content" id="content-area" ></textarea>
+        
+      </div>
+      </div>
+      <div class="card4">
+        <div class="card4-header heading">
+                    <h4 class="card4-title title">Technical project management</h4>
+          <button class="info"><img src="icons/description.svg" alt=""></button>
+        </div>
+        <div class="card4-content">
+          <div class="card4-description description"><span class="bold">Description:</span> Story of Alignment Scope of Agility Specific Accountable Staggering Approach</div>
+          <div class="container-2">
+            <div class="section-4">
+                <button class="collapsible"><span class="arrow-2"><img src="icons/arrow up.svg" alt=""></span>
+                  Introduction</button>
+                <div class="collapsible-content">
+                    <p>The 4SA Method, How to bring a idea into progress?</p>
+                    
+                    <a href="#" class="see-more">See More</a>
+                </div>
+            </div>
+    
+            <div class="section">
+                <button class="collapsible"><span class="arrow-2"><img src="icons/arrow up.svg" alt=""></span>
+                  Thread A</button>
+                <div class="collapsible-content">
+                    <p>How are you going to develop your strategy? Which method are you going to use to develop a strategy? What if the project is lengthy?</p>
+                    <a href="#" class="see-more">See More</a>
+                </div>
+            </div>
+    
+            <div class="section">
+                <button class="collapsible" id="example"><span class="arrow-2"><img src="icons/arrow up.svg" alt=""></span>
+                  Example 1</button>
+                <div class="collapsible-content">
+                    <p>You have a concept, How will you put it into progress?</p>
+                    <a href="#" class="see-more">See More</a>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="last-part">
+      <div class="circles">
+      <div class="circle-1">
+        <img class="vector" width="46px" height="46px" src="icons/circle1 questions.svg" alt="">
+        <img class="circle1" width="85px" height="85px" src="icons/ellipses.svg" alt="">
+        
+      </div>
+      <div class="circle-2">
+        <img class="vector" width="46px" height="46px"  src="icons/meeting 1.svg" alt="">
+      <img class="circle2" width="85px" height="85px" src="icons/ellipses.svg" alt="">
+     
+      </div>
+    <div class="circle-3">
+      <img class="vector" width="46x" height="46px" src="icons/circle schedule.svg" alt="">
+      <img class="circle3" width="85px" height="85px" src="icons/ellipses.svg" alt="">
+
+     </div>
+    </div>
+  </div>
+  
+  </section>
+</body>
+ <script src="script.js"></script>
+</html>
